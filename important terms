@@ -1,0 +1,4 @@
+1. res.send() will check the structure of your output and set header information accordingly. for example, including the content-Type and the ETag attributes.
+
+¿Why is this tag important?
+The ETag HTTP response header is an identifier for a specific version of a resource. It allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed.
